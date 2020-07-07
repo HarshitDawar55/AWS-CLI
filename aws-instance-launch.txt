@@ -1,1 +1,1 @@
-aws ec2 run-instances --image-id ami-00b494a3f139ba61f --instance-type t2.micro
+aws ec2 run-instances --image-id ami-00b494a3f139ba61f --key-name MyKey --instance-type t2.micro
